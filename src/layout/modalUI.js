@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core/Styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 export function GetModalStyle() {
 	const top = 50;
