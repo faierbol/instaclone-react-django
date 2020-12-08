@@ -1,0 +1,29 @@
+.user__input {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #555555;
+	border-radius: 5px;
+	outline-color: tomato;
+	transition: .5s;
+}
+.user__input:focus {
+	outline-color: lightgreen;
+}
+.user__submit {
+	padding: 10px;
+	width: 100%;
+	background-color: #f1f1f1;
+	border: none;
+	cursor: pointer;
+	outline-color: lightgreen;
+	transition: .2s;
+	margin-top: 5px;
+	background-color: #DADBDD;
+	color: #555555;
+}
+.form__div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

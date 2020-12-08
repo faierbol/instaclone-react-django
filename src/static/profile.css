@@ -1,0 +1,14 @@
+.profile__posts {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	padding: 50px;
+}
+.header3 {
+	text-align: center;
+	color: #555555;
+}
+.ptext {
+	text-align: center;
+	color: #404040;
+}

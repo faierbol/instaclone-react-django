@@ -1,0 +1,11 @@
+.Menu {
+}
+.link {
+	text-decoration: none;
+	color: #404040;
+}
+.menuitem {
+	color: #505050;
+	font-size: 12px;
+	background-color: lightblue;
+}

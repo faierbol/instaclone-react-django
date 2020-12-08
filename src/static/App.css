@@ -1,0 +1,93 @@
+.App {
+	margin: 0;
+	background-color: #FAFAFA;
+}
+.app__nav {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: white;
+	padding: 10px;
+	margin-top: 5px;
+	border-bottom: 1px solid lightgray;
+	object-fit: contain;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 15.5%;
+	padding-right: 15.5%;
+}
+.login__button {
+	padding: none;
+	background-color: white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin: 5px;
+}
+.signup__button {
+	padding: 10px;
+	background-color: tomato;
+	color: white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 10px;
+}
+.user__form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.user__input {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #555555;
+	border-radius: 5px;
+	outline-color: tomato;
+	transition: .5s;
+}
+.user__input:focus {
+	outline-color: lightgreen;
+}
+.user__submit {
+	padding: 10px;
+	width: 100%;
+	background-color: #f1f1f1;
+	border: none;
+	cursor: pointer;
+	outline-color: lightgreen;
+	transition: .2s;
+	margin-top: 5px;
+	background-color: #DADBDD;
+	color: #555555;
+}
+.user__submit:hover, .user__submit:focus {
+	outline-color: lightgreen;
+	background-color: #CAC9CC
+}
+.logintopost {
+	color: #231F20;
+	text-align: center;
+}
+.App__content {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	padding: 50px;
+}
+.login__formBase {
+	top: 50;
+	left: 50;
+	position: absolute;
+	width: auto;
+	background-color: #f1f1f1;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	transition:  .5s;
+}
+.Signup__message {
+	text-align: center;
+}
