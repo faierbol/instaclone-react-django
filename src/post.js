@@ -10,7 +10,7 @@ import { GetModalStyle, useStyles } from './layout/modalUI.js';
 import { getCookie } from './authentication/getCookie';
 
 export default function Post({likesLength, postId, user, imageURL, caption, postDate}) {
-	let imgURL = `https://instaclone-react-django.herokuapp.com/${imageURL}`
+	let imgURL = `https://instaclone-react-django.herokuapp.com${imageURL}`
 	const classes = useStyles();
 	const [modalStyle] = useState(GetModalStyle);
 
